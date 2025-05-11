@@ -11,10 +11,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "whats_app_clone",
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        bottomSheetTheme: BottomSheetThemeData(backgroundColor: Colors.red),
       ),
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.dark,
+
       home: ChatScreen(),
     );
   }
