@@ -22,11 +22,13 @@ A beautifully designed **WhatsApp Chat Clone** that replicates the look and feel
 Here's a preview of the chat interface with a themed message and custom media:
 
 <p align="center">
-  <img src="screen_Shots/image.png" width="300"/>
+  <img src="screen_shots/image.png" width="300"/>
 </p>
 
 ## 📁 Folder Structure
 
+<pre>
+'''
 ├── assets/
 │ └── icons/
 | └── images/
@@ -40,3 +42,5 @@ Here's a preview of the chat interface with a themed message and custom media:
 │ └── main.dart
 ├── pubspec.yaml
 └── README.md
+'''
+</pre>
